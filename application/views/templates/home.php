@@ -48,7 +48,7 @@
 					<header>
 						<div class="logo">
 							<a href="#">
-								<img src="<?php echo base_url();?>assets/style/images/logo.png" alt="" />
+								<img src="<?php echo base_url();?>assets/style/images/lg.png" width="40%" alt="" />
 							</a>
 						</div>
 						

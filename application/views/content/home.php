@@ -50,67 +50,64 @@ kemampuan intelektual dan mental</font></div>
 		</div>
 	</div>
 	<div class="inner dark">
-		<h2>Our Latest Works</h2>
-		<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+		<div class="one-half">
+			<h3>Info Sekolah</h3>
+			<div class="tabs tab-container">
+				<ul class="etabs">
+					<li class="tab"><a href="#berita">Berita</a></li>
+					<li class="tab"><a href="#kegiatan">Kegiatan</a></li>
+					<li class="tab"><a href="#pengumuman">Pengumuman</a></li>
+				</ul>
+				<div class="panel-container">
+					<div id="berita">
+						<div class="grid-wrapper">
+							<a href="#"><b>Hari Pertama UN SMP, Kemendikbud Tinjau Distribusi Naskah Soal di Subrayon Sejak Subuh</b></a>
+							<p style='text-align: justify;'><img src='<?php echo base_url();?>assets/style/images/sementara/5.jpg' width='100px' style='float:left; margin: 5px 10px 0 0; padding: 3px; background: #fff; border: 1px solid #dcdcdc'>
+								Jakarta, Kemendikbud --- Kementerian Pendidikan dan Kebudayaan (Kemendikbud) yang dipimpin Kepala Balitbang Kemendikbud, Furqon, melakukan sidak distribusi naskah ujian nasional (UN) di hari pertama penyelenggaraan UN SMP. 
+								Sidak dilakukan di SMPN 73 ... <a href='#'>  Selengkapnya...</a></p><br>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><div class="one-half last">
+        <h3>Agenda</h3>
+        <!-- Begin Toggle -->
+        <div class="toggle">
+          <h4 class="title">Perpisahan Kelas XII</h4>
+          <div class="togglebox">
+            <div>
+              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc rhoncus tortor quis eros bibendum a tempus est dapibus. Vivamus consectetur quam eu tellus porttitor ultrices. Nunc metus massa, ullamcorper sit amet malesuada a, porttitor in tellus.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End Toggle --> 
+        
+        <!-- Begin Toggle -->
+        <div class="toggle">
+          <h4 class="title">Buka Puasa Bersama</h4>
+          <div class="togglebox in">
+            <div>
+              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc rhoncus tortor quis eros bibendum a tempus est dapibus. Vivamus consectetur quam eu tellus porttitor ultrices. Nunc metus massa, ullamcorper sit amet malesuada a, porttitor in tellus.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End Toggle --> 
+        
+        <!-- Begin Toggle -->
+        <div class="toggle">
+          <h4 class="title">Idul Fitri 1438 H</h4>
+          <div class="togglebox">
+            <div>
+              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc rhoncus tortor quis eros bibendum a tempus est dapibus. Vivamus consectetur quam eu tellus porttitor ultrices. Nunc metus massa, ullamcorper sit amet malesuada a, porttitor in tellus.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End Toggle --> 
+        
+      </div>
+		<p><font color="#f3f3f3">.</font></p>
+		<br>
 		<div class="grid-wrapper">
-			<ul class="items">
-				<li class="item">
-					<div class="overlay">
-						<a href="<?php echo base_url();?>assets/style/images/art/p1-full.jpg" class="fancybox-media">
-							<img src="<?php echo base_url();?>assets/style/images/art/col4/p1.jpg" alt="" />
-						</a>
-					</div>
-					<div class="info">
-						<h4 class="long-lined">
-							<a href="portfolio-post.html">Porta Vulputate Justo</a>
-						</h4>
-						<p>Nullam id dolor id nibh ultricies vehicula ut id elit, aenean.</p>
-						<a href="portfolio-post.html" class="more">View Details →</a> 
-					</div>
-				</li>
-				<li class="item">
-					<div class="overlay">
-						<a href="<?php echo base_url();?>assets/style/images/art/p2-full.jpg" class="fancybox-media">
-							<img src="<?php echo base_url();?>assets/style/images/art/col4/p2.jpg" alt="" />
-						</a>
-					</div>
-					<div class="info">
-						<h4 class="long-lined">
-							<a href="portfolio-post.html">Inceptos Mattis Etiam</a>
-						</h4>
-						<p>Donec ullamcorper nulla metus auctor fringilla dapibus.</p>
-						<a href="portfolio-post.html" class="more">View Details →</a>
-					</div>
-				</li>
-				<li class="item">
-					<div class="overlay">
-						<a href="<?php echo base_url();?>assets/style/images/art/p3-full.jpg" class="fancybox-media">
-							<img src="<?php echo base_url();?>assets/style/images/art/col4/p3.jpg" alt="" />
-						</a>
-					</div>
-					<div class="info">
-						<h4 class="long-lined">
-							<a href="portfolio-post.html">Etiam Vestibulum</a>
-						</h4>
-						<p>Mollis non commodo luctus, nisi erat porttitor eget lacinia odio.</p>
-						<a href="portfolio-post.html" class="more">View Details →</a>
-					</div>
-				</li>
-				<li class="item">
-					<div class="overlay">
-						<a href="<?php echo base_url();?>assets/style/images/art/p4-full.jpg" class="fancybox-media">
-							<img src="<?php echo base_url();?>assets/style/images/art/col4/p4.jpg" alt="" />
-						</a>
-					</div>
-					<div class="info">
-						<h4 class="long-lined">
-							<a href="portfolio-post.html">Elit Malesuada Ligula</a>
-						</h4>
-						<p>Sed posuere consectetur est at lobortis nulla vitae elitretra.</p>
-						<a href="portfolio-post.html" class="more">View Details →</a> 
-					</div>
-				</li>
-			</ul>
 		</div>
 	</div>
 </div>
