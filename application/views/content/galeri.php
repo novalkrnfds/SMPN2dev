@@ -38,7 +38,7 @@
 				</li>
 				<li class="item artwork graphic">
 					<div class="overlay">
-						<a href="<?php echo base_url();?>assets/style/images/sementara3.jpg" class="fancybox-media">
+						<a href="<?php echo base_url();?>assets/style/images/sementara/3.jpg" class="fancybox-media">
 							<img src="<?php echo base_url();?>assets/style/images/sementara/3.jpg" alt="" />
 						</a>
 					</div>

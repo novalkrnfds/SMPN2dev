@@ -4,23 +4,26 @@
 			<div class="banner">
 				<ul>
 					<li data-transition="random"> <img src="<?php echo base_url();?>assets/style/images/sementara/1.jpg" alt="" />
-						<div class="caption sft red-bg" data-x="70" data-y="70" data-speed="300" data-start="1500" data-easing="easeOutExpo">Manage your communications easily</div>
-						<!--<div class="caption sfl white-bg" data-x="70" data-y="151" data-speed="300" data-start="2100" data-easing="easeOutExpo"><i class="icon-check"></i> Etiam porta sem malesuada magna mollis euismod.</div>
-						<div class="caption sfl white-bg" data-x="70" data-y="198" data-speed="300" data-start="2700" data-easing="easeOutExpo"><i class="icon-check"></i> Maecenas sed diam eget risus varius blandit sit amet non.</div>
-						<div class="caption sfl white-bg" data-x="70" data-y="245" data-speed="300" data-start="3300" data-easing="easeOutExpo"><i class="icon-check"></i> Donec ullamcorper nulla non metus auctor fringilla.</div>
-						<div class="caption sfb" data-x="70" data-y="319" data-speed="300" data-start="3900" data-easing="easeOutExpo"><a href="project.html" class="button big navy">View Projects</a></div>-->
+						<!--<div class="caption sft red-bg" data-x="70" data-y="70" data-speed="300" data-start="1500" data-easing="easeOutExpo">Manage your communications easily</div>
+						<div class="caption sfl white-bg" data-x="70" data-y="151" data-speed="300" data-start="2100" data-easing="easeOutExpo"><i class="icon-check"></i> Etiam porta sem malesuada magna mollis euismod.</div>-->
+						<div class="caption sfl fs-font" data-x="70" data-y="151" data-speed="300" data-start="1000" data-easing="easeOutExpo"> <font color="#fcfcfc"><b>Selamat Datang di Website</font></b></div>
+						<div class="caption sfl sc-font" data-x="70" data-y="198" data-speed="300" data-start="1500" data-easing="easeOutExpo"> <font color="#fcfcfc">SMP Negeri 2 Sungai Penuh</font></div>
+						<!--div class="caption sfb" data-x="70" data-y="319" data-speed="300" data-start="3900" data-easing="easeOutExpo"><a href="project.html" class="button big navy">View Projects</a></div-->
 					</li>
 					<li data-transition="random"> <img src="<?php echo base_url();?>assets/style/images/sementara/2.jpg" alt="" />
-						<div class="caption navy-bg lfr" data-x="660" data-y="80" data-speed="300" data-start="800" data-easing="easeOutExpo">Connect from anywhere, anytime</div>
+						<div class="caption navy-bg lfr" data-x="70" data-y="151" data-speed="300" data-start="800" data-easing="easeOutExpo">Sekolah Inklusi</div>
+						<div class="caption navy-bg sc-font lfr" data-x="70" data-y="205" data-speed="300" data-start="1000" data-easing="easeOutExpo"> <font color="#fcfcfc">Menerima siswa dari berbagai latar belakang agama, <br>
+kemampuan intelektual dan mental</font></div>
 					</li>
 					<li data-transition="random"> <img src="<?php echo base_url();?>assets/style/images/sementara/3.jpg" alt="" />
-						<div class="caption navy-bg sft" data-x="80" data-y="80" data-speed="300" data-start="800" data-easing="easeOutExpo">Observe the operations and opportunities</div>
+						<div class="caption sfl fs-font" data-x="679" data-y="151" data-speed="300" data-start="1000" data-easing="easeOutExpo"> <font color="#fcfcfc"><b>Membentuk Siswa Berprestasi</font></b></div>
+						<div class="caption sfl sc-font" data-x="630" data-y="198" data-speed="300" data-start="1500" data-easing="easeOutExpo"> <font color="#fcfcfc">Dengan Fasilitas Terbaik</font></div>
 					</li>
 					<li data-transition="random"> <img src="<?php echo base_url();?>assets/style/images/sementara/4.jpg" alt="" />
-						<div class="caption navy-bg sft" data-x="80" data-y="80" data-speed="300" data-start="800" data-easing="easeOutExpo">Observe the operations and opportunities</div>
+						<!--div class="caption navy-bg sft" data-x="80" data-y="80" data-speed="300" data-start="800" data-easing="easeOutExpo">Observe the operations and opportunities</div-->
 					</li>
 					<li data-transition="random"> <img src="<?php echo base_url();?>assets/style/images/sementara/5.jpg" alt="" />
-						<div class="caption navy-bg sft" data-x="80" data-y="80" data-speed="300" data-start="800" data-easing="easeOutExpo">Observe the operations and opportunities</div>
+						<!--div class="caption navy-bg sft" data-x="80" data-y="80" data-speed="300" data-start="800" data-easing="easeOutExpo">Observe the operations and opportunities</div-->
 					</li>
 				</ul>
 				<div class="tp-bannertimer tp-bottom"></div>
@@ -29,47 +32,21 @@
 	</div>
 	<div class="inner dark">
 		<div class="aligncenter">
-			<h1 class="lined">We offer great prices for your business</h1>
-			<p class="description">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-			<a href="#" class="button big">See All Prices</a> 
+			<h1 class="lined">Tiada Prestasi Tanpa Kerja Keras <i class="ita"> &amp; </i> Disiplin</h1>
 		</div>
 	</div>
 	<div class="inner light">
-		<h2>What Do We Provide</h2>
-		<p>Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-		<br />
-		<div class="services">
-			<div class="one-half"> 
-				<i class="icon-paper-plane special"></i>
-				<div class="info">
-					<h3 class="lined">Logistics Solution</h3>
-					<p>Donec elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum ligula porta felis cras ridiculus dapibus, aenean eu leo quam.</p>
-				</div>
+		<h2>Sambutan Kepala Sekolah</h2>
+		<div class="one-fourth">
+			<img src="<?php echo base_url();?>assets/style/images/kepsek.png" width="100%" alt="Drs. Moh. Khotim, M.Pd">
+		</div>
+		<div class="row-item">
+				<p style="text-align: justify;">Puji syukur senantiasa kita panjatkan kepada Tuhan Yang Maha Esa yang tiada putus-putusnya melimpahkan rahmat dan karuniaNya kepada kita semua.</p>
+				<p style="text-align: justify;">Website SMP Negeri 226 Jakarta dibuat dengan tujuan untuk memberikan informasi secara menyeluruh kepada masyarakat mengenai kegiatan dan prestasi sekolah, sehingga diharapkan dapat menjadi salah satu sarana interaksi langsung masyarakat dengan SMP Negeri 226 Jakarta.</p>
+				<p style="text-align: justify;">Semoga masyarakat dan siswa yang berkepentingan agar dapat memanfaatkan website ini dengan sebaik-baiknya. Kami dari pihak sekolah berharap semoga kita memperoleh kemudahan dalam mencapai cita-cita, untuk kemajuan SMP Negeri 226 Jakarta, bangsa dan negara yang tercinta di masa yang akan datang.</p>
+				<p style="text-align: justify;">Semoga masyarakat dan siswa yang berkepentingan agar dapat memanfaatkan website ini dengan sebaik-baiknya..</p>
+			<div class="gap" style="height: 30px;">
 			</div>
-			<div class="one-half last">
-				<i class="icon-briefcase-1 special"></i>
-				<div class="info">
-					<h3 class="lined">Money Protection</h3>
-					<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta.</p>
-				</div>
-			</div>
-			<div class="clear"></div>
-			<br />
-			<div class="one-half"> 
-				<i class="icon-lamp special"></i>
-				<div class="info">
-					<h3 class="lined">Strategic Development</h3>
-					<p>Mollis est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem elit. Aenean lacinia bibendum nulla consectetur. Integer posuere erat a ante venenatis dapibus.</p>
-				</div>
-			</div>
-			<div class="one-half last">
-				<i class="icon-basket-1 special"></i>
-				<div class="info">
-					<h3 class="lined">Marketing Management</h3>
-					<p>Morbi leo risus, porta ac consectetur, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur.</p>
-				</div>
-			</div>
-			<div class="clear"></div>
 		</div>
 	</div>
 	<div class="inner dark">

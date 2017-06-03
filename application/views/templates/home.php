@@ -27,18 +27,28 @@
 		<script type="text/javascript" src="<?php echo base_url();?>assets/style/js/fancybox/helpers/jquery.fancybox-buttons0ff5.js?v=1.0.2"></script>
 		<script type="text/javascript" src="<?php echo base_url();?>assets/style/js/fancybox/helpers/jquery.fancybox-thumbs0ff5.js?v=1.0.2"></script>
 		<script type="text/javascript" src="<?php echo base_url();?>assets/style/js/fancybox/helpers/jquery.fancybox-mediae209.js?v=1.0.0"></script>
+		<style type="text/css">
+		div.fs-font {
+		  font-size: 2em;
+		}
+		div.sc-font {
+		  font-size: 3em;
+		  fon-color: #f3f3f3;
+		}
+		</style>
 	</head>
 	<body class="full-layout">
 		<!-- Begin Body Wrapper -->
+		
 		<div class="body-wrapper"> 
 			<!-- Begin Top Wrapper -->
 			<div class="top-wrapper">
-				<div class="inner"> 
+				<div class="inner">
 					<!-- Begin Header -->
 					<header>
 						<div class="logo">
 							<a href="#">
-								<img src="<?php echo base_url();?>assets/style/images/lg.png" style="width:40%" alt="" />
+								<img src="<?php echo base_url();?>assets/style/images/logo.png" alt="" />
 							</a>
 						</div>
 						
