@@ -3,26 +3,26 @@
 		<div class="bannercontainer">
 			<div class="banner">
 				<ul>
-					<li data-transition="random"> <img src="<?php echo base_url();?>assets/style/images/sementara/1.jpg" alt="" />
+					<li data-transition="random"> <img src="https://ret-tech.id/SMPNDEV/SMPN2/images/header/2.jpg" alt="" />
 						<!--<div class="caption sft red-bg" data-x="70" data-y="70" data-speed="300" data-start="1500" data-easing="easeOutExpo">Manage your communications easily</div>
 						<div class="caption sfl white-bg" data-x="70" data-y="151" data-speed="300" data-start="2100" data-easing="easeOutExpo"><i class="icon-check"></i> Etiam porta sem malesuada magna mollis euismod.</div>-->
 						<div class="caption sfl fs-font" data-x="70" data-y="151" data-speed="300" data-start="1000" data-easing="easeOutExpo"> <font color="#fcfcfc"><b>Selamat Datang di Website</font></b></div>
 						<div class="caption sfl sc-font" data-x="70" data-y="198" data-speed="300" data-start="1500" data-easing="easeOutExpo"> <font color="#fcfcfc">SMP Negeri 2 Sungai Penuh</font></div>
 						<!--div class="caption sfb" data-x="70" data-y="319" data-speed="300" data-start="3900" data-easing="easeOutExpo"><a href="project.html" class="button big navy">View Projects</a></div-->
 					</li>
-					<li data-transition="random"> <img src="<?php echo base_url();?>assets/style/images/sementara/2.jpg" alt="" />
+					<li data-transition="random"> <img src="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/6.jpg" alt="" />
 						<div class="caption navy-bg lfr" data-x="70" data-y="151" data-speed="300" data-start="800" data-easing="easeOutExpo">Sekolah Inklusi</div>
 						<div class="caption navy-bg sc-font lfr" data-x="70" data-y="205" data-speed="300" data-start="1000" data-easing="easeOutExpo"> <font color="#fcfcfc">Menerima siswa dari berbagai latar belakang agama, <br>
 kemampuan intelektual dan mental</font></div>
 					</li>
-					<li data-transition="random"> <img src="<?php echo base_url();?>assets/style/images/sementara/3.jpg" alt="" />
+					<li data-transition="random"> <img src="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/2.jpg" alt="" />
 						<div class="caption sfl fs-font" data-x="679" data-y="151" data-speed="300" data-start="1000" data-easing="easeOutExpo"> <font color="#fcfcfc"><b>Membentuk Siswa Berprestasi</font></b></div>
 						<div class="caption sfl sc-font" data-x="630" data-y="198" data-speed="300" data-start="1500" data-easing="easeOutExpo"> <font color="#fcfcfc">Dengan Fasilitas Terbaik</font></div>
 					</li>
-					<li data-transition="random"> <img src="<?php echo base_url();?>assets/style/images/sementara/4.jpg" alt="" />
+					<li data-transition="random"> <img src="https://ret-tech.id/SMPNDEV/SMPN2/images/header/3.jpg" alt="" />
 						<!--div class="caption navy-bg sft" data-x="80" data-y="80" data-speed="300" data-start="800" data-easing="easeOutExpo">Observe the operations and opportunities</div-->
 					</li>
-					<li data-transition="random"> <img src="<?php echo base_url();?>assets/style/images/sementara/5.jpg" alt="" />
+					<li data-transition="random"> <img src="https://ret-tech.id/SMPNDEV/SMPN2/images/header/1.jpg" alt="" />
 						<!--div class="caption navy-bg sft" data-x="80" data-y="80" data-speed="300" data-start="800" data-easing="easeOutExpo">Observe the operations and opportunities</div-->
 					</li>
 				</ul>

@@ -6,158 +6,136 @@
 		<div id="portfolio">
 			<ul class="filter">
 				<li><a class="active" href="#" data-filter="*">All</a></li>
-				<li><a href="#" data-filter=".graphic">Graphic</a></li>
-				<li><a href="#" data-filter=".artwork">Artwork</a></li>
-				<li><a href="#" data-filter=".interface">Interface</a></li>
+				<li><a href="#" data-filter=".graphic">Fasilitas</a></li>
+				<li><a href="#" data-filter=".artwork">Ekstrakulikuler</a></li>
+				<li><a href="#" data-filter=".interface">Kegiatan</a></li>
 				<li><a href="#" data-filter=".video">Video</a></li>
 			</ul>
 			<ul class="items col4">
 				<li class="item graphic">
 					<div class="overlay">
-						<a href="<?php echo base_url();?>assets/style/images/sementara/1.jpg" class="fancybox-media">
-							<img src="<?php echo base_url();?>assets/style/images/sementara/1.jpg" alt="" />
+						<a href="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/4.jpg" class="fancybox-media">
+							<img src="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/4.jpg" alt="" />
 						</a>
-					</div>
-					<div class="info">
-						<h4 class="long-lined"><a href="portfolio-post.html">Gambar 1</a></h4>
-						<p>Nullam id dolor id nibh ultricies vehicula ut id elit, aenean.</p>
-						<a href="portfolio-post.html" class="more">View Details →</a> 
 					</div>
 				</li>
 				<li class="item artwork">
 					<div class="overlay">
-						<a href="<?php echo base_url();?>assets/style/images/sementara/2.jpg" class="fancybox-media">
-							<img src="<?php echo base_url();?>assets/style/images/sementara/2.jpg" alt="" />
+						<a href="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/3.jpg" class="fancybox-media">
+							<img src="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/3.jpg" alt="" />
 						</a>
-					</div>
-					<div class="info">
-						<h4 class="long-lined"><a href="portfolio-post.html">Gambar 2</a></h4>
-						<p>Donec ullamcorper nulla metus auctor fringilla dapibus.</p>
-						<a href="portfolio-post.html" class="more">View Details →</a>
 					</div>
 				</li>
 				<li class="item artwork graphic">
 					<div class="overlay">
-						<a href="<?php echo base_url();?>assets/style/images/sementara/3.jpg" class="fancybox-media">
-							<img src="<?php echo base_url();?>assets/style/images/sementara/3.jpg" alt="" />
+						<a href="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/5.jpg" class="fancybox-media">
+							<img src="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/5.jpg" alt="" />
 						</a>
-					</div>
-					<div class="info">
-						<h4 class="long-lined"><a href="portfolio-post.html">Gambar 3</a></h4>
-						<p>Mollis non commodo luctus, nisi erat porttitor eget lacinia odio.</p>
-						<a href="portfolio-post.html" class="more">View Details →</a> 
 					</div>
 				</li>
 				<li class="item interface">
 					<div class="overlay">
-						<a href="<?php echo base_url();?>assets/style/images/sementara/5.jpg" class="fancybox-media">
-							<img src="<?php echo base_url();?>assets/style/images/sementara/5.jpg" alt="" />
+						<a href="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/6.jpg" class="fancybox-media">
+							<img src="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/6.jpg" alt="" />
 						</a>
-					</div>
-					<div class="info">
-						<h4 class="long-lined"><a href="portfolio-post.html">Gambar 4</a></h4>
-						<p>Sed posuere consectetur est at lobortis nulla vitae elitretra.</p>
-						<a href="portfolio-post.html" class="more">View Details →</a> 
-					</div>
-				</li>
-				<li class="item graphic">
-					<div class="overlay">
-						<a href="<?php echo base_url();?>assets/style/images/art/p5-full.jpg" class="fancybox-media">
-							<img src="<?php echo base_url();?>assets/style/images/art/col4/p5.jpg" alt="" />
-						</a>
-					</div>
-					<div class="info">
-						<h4 class="long-lined"><a href="portfolio-post.html">Cras Vestibulum Nibh</a></h4>
-						<p>Nullam id dolor id nibh ultricies vehicula ut id elit, aenean.</p>
-						<a href="portfolio-post.html" class="more">View Details →</a>
-					</div>
-				</li>
-				<li class="item artwork">
-					<div class="overlay">
-						<a href="<?php echo base_url();?>assets/style/images/art/p6-full.jpg" class="fancybox-media">
-							<img src="<?php echo base_url();?>assets/style/images/art/col4/p6.jpg" alt="" />
-						</a>
-					</div>
-					<div class="info">
-						<h4 class="long-lined"><a href="portfolio-post.html">Tristique Ornare</a></h4>
-						<p>Donec ullamcorper nulla metus auctor fringilla dapibus.</p>
-						<a href="portfolio-post.html" class="more">View Details →</a> 
-					</div>
-				</li>
-				<li class="item interface graphic">
-					<div class="overlay">
-						<a href="<?php echo base_url();?>assets/style/images/art/p7-full.jpg" class="fancybox-media">
-							<img src="<?php echo base_url();?>assets/style/images/art/col4/p7.jpg" alt="" />
-						</a>
-					</div>
-					<div class="info">
-						<h4 class="long-lined"><a href="portfolio-post.html">Ligula Nullam Egestas</a></h4>
-						<p>Mollis non commodo luctus, nisi erat porttitor eget lacinia odio.</p>
-						<a href="portfolio-post.html" class="more">View Details →</a>
-					</div>
-				</li>
-				<li class="item video">
-					<div class="overlay">
-						<a href="http://vimeo.com/11513701" class="fancybox-media">
-							<img src="<?php echo base_url();?>assets/style/images/art/col4/p8.jpg" alt="" />
-						</a>
-					</div>
-					<div class="info">
-						<h4 class="long-lined"><a href="portfolio-post.html">Pellentesque Commodo</a></h4>
-						<p>Sed posuere consectetur est at lobortis nulla vitae elitretra.</p>
-						<a href="portfolio-post.html" class="more">View Details →</a> 
-					</div>
-				</li>
-				<li class="item graphic">
-					<div class="overlay">
-						<a href="<?php echo base_url();?>assets/style/images/art/p9-full.jpg" class="fancybox-media">
-							<img src="<?php echo base_url();?>assets/style/images/art/col4/p9.jpg" alt="" />
-						</a>
-					</div>
-					<div class="info">
-						<h4 class="long-lined"><a href="portfolio-post.html">Euismod Vulputate</a></h4>
-						<p>Nullam id dolor id nibh ultricies vehicula ut id elit, aenean.</p>
-						<a href="portfolio-post.html" class="more">View Details →</a>
 					</div>
 				</li>
 				<li class="item interface">
 					<div class="overlay">
-						<a href="<?php echo base_url();?>assets/style/images/art/p10-full.jpg" class="fancybox-media">
-							<img src="<?php echo base_url();?>assets/style/images/art/col4/p10.jpg" alt="" />
+						<a href="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/7.jpg" class="fancybox-media">
+							<img src="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/7.jpg" alt="" />
 						</a>
-					</div>
-					<div class="info">
-						<h4 class="long-lined"><a href="portfolio-post.html">Tortor Fringilla</a></h4>
-						<p>Donec ullamcorper nulla metus auctor fringilla dapibus.</p>
-						<a href="portfolio-post.html" class="more">View Details →</a> 
 					</div>
 				</li>
-				<li class="item artwork graphic">
+				<li class="item interface">
 					<div class="overlay">
-						<a href="<?php echo base_url();?>assets/style/images/art/p11-full.jpg" class="fancybox-media">
-							<img src="<?php echo base_url();?>assets/style/images/art/col4/p11.jpg" alt="" />
+						<a href="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/8.jpg" class="fancybox-media">
+							<img src="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/8.jpg" alt="" />
 						</a>
-					</div>
-					<div class="info">
-						<h4 class="long-lined"><a href="portfolio-post.html">Cursus Sem Ligula</a></h4>
-						<p>Mollis non commodo luctus, nisi erat porttitor eget lacinia odio.</p>
-						<a href="portfolio-post.html" class="more">View Details →</a> 
 					</div>
 				</li>
-				<li class="item video">
+				<li class="item interface">
 					<div class="overlay">
-						<a href="http://vimeo.com/53027095" class="fancybox-media">
-							<img src="<?php echo base_url();?>assets/style/images/art/col4/p12.jpg" alt="" />
+						<a href="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/12.jpg" class="fancybox-media">
+							<img src="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/12.jpg" alt="" />
 						</a>
 					</div>
-					<div class="info">
-						<h4 class="long-lined"><a href="portfolio-post.html">Magna Fermentum</a></h4>
-						<p>Sed posuere consectetur est at lobortis nulla vitae elitretra.</p>
-						<a href="portfolio-post.html" class="more">View Details →</a> 
+				</li>
+				<li class="item interface">
+					<div class="overlay">
+						<a href="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/11.jpg" class="fancybox-media">
+							<img src="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/11.jpg" alt="" />
+						</a>
+					</div>
+				</li>
+				<li class="item interface">
+					<div class="overlay">
+						<a href="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/13.jpg" class="fancybox-media">
+							<img src="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/13.jpg" alt="" />
+						</a>
+					</div>
+				</li>
+				<li class="item interface">
+					<div class="overlay">
+						<a href="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/o2snbulutangkis.jpg" class="fancybox-media">
+							<img src="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/o2snbulutangkis.jpg" alt="" />
+						</a>
+					</div>
+				</li>
+				<li class="item interface">
+					<div class="overlay">
+						<a href="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/P_20160310_103715.jpg" class="fancybox-media">
+							<img src="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/P_20160310_103715.jpg" alt="" />
+						</a>
+					</div>
+				</li>
+				<li class="item interface">
+					<div class="overlay">
+						<a href="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/11.jpg" class="fancybox-media">
+							<img src="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/11.jpg" alt="" />
+						</a>
+					</div>
+				</li>
+				<li class="item interface">
+					<div class="overlay">
+						<a href="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/7.jpg" class="fancybox-media">
+							<img src="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/7.jpg" alt="" />
+						</a>
+					</div>
+				</li>
+				<li class="item interface">
+					<div class="overlay">
+						<a href="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/8.jpg" class="fancybox-media">
+							<img src="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/8.jpg" alt="" />
+						</a>
+					</div>
+				</li>
+				<li class="item interface">
+					<div class="overlay">
+						<a href="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/12.jpg" class="fancybox-media">
+							<img src="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/12.jpg" alt="" />
+						</a>
+					</div>
+				</li>
+				<li class="item interface">
+					<div class="overlay">
+						<a href="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/DSC08442.JPG" class="fancybox-media">
+							<img src="https://ret-tech.id/SMPNDEV/SMPN2/images/kegiatan/DSC08442.JPG" alt="" />
+						</a>
 					</div>
 				</li>
 			</ul>
 		</div>
+		<hr>
+        <div class="page-navi">
+          <ul>
+            <li><a href="#" class="current">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">Next</a></li>
+            <li><a href="#">Last</a></li>
+          </ul>
+        </div>
 	</div>
 </div>
 <!-- End Wrapper --> 

@@ -22,7 +22,7 @@
 <div class="subfooter"> 
 	<!-- Begin Inner -->
 	<div class="inner">
-		<p>© 2012 Wiretree. All rights reserved. Theme by <a href="http://elemisfreebies.com/">elemis</a>.</p>
+		<p>© 2017 <a href="<?php base_url();?>"><b>SMP Negeri 2 Sungai Penuh</b></a>. All rights reserved.</p>
 		<ul class="social">
 			<li><a href="#"><i class="icon-s-rss"></i></a></li>
 			<li><a href="#"><i class="icon-s-twitter"></i></a></li>
