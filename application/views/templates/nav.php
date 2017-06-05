@@ -3,14 +3,14 @@
 		<li class="<?php if($this->uri->segment(1) == null){echo "active";}?>">
 			<a href="<?php echo base_url();?>">Home</a>
 		</li>
-		<li class="<?php if($this->uri->segment(2) == "profil" || $this->uri->segment(2) == "struktur_organisasi" || $this->uri->segment(2) == "visimisi"){echo "active";}?>">
+		<li class="<?php if($this->uri->segment(2) == "profil" || $this->uri->segment(2) == "prestasi" || $this->uri->segment(2) == "struktur_organisasi" || $this->uri->segment(2) == "visimisi"){echo "active";}?>">
 			<a href="#">Profil</a>
 			<ul>
 				<li><a href="#">Sejarah Sekolah</a></li>
 				<li><a href="<?php echo base_url()."profil/struktur_organisasi"; ?>">Struktur Organinasi</a></li>
 				<li><a href="<?php echo base_url()."profil/visimisi"; ?>">Visi & Misi</a></li>
 				<li><a href="<?php echo base_url()."profil/visimisi"; ?>">Sarana & Prasarana</a></li>
-				<li><a href="<?php echo base_url()."profil/visimisi"; ?>">Prestasi</a></li>
+				<li><a href="<?php echo base_url()."profil/prestasi"; ?>">Prestasi</a></li>
 			</ul>
 		</li>
 		<li class="<?php if($this->uri->segment(2)=="galeri"){echo "active";}?>">

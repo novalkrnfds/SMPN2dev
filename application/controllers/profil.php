@@ -14,4 +14,8 @@ class Profil extends CI_Controller {
 	public function visimisi(){
 		$this->template->display('content/profil/visimisi');
 	}
+	
+	public function prestasi(){
+		$this->template->display('content/profil/prestasi');
+	}
 }

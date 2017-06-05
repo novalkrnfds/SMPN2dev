@@ -5,42 +5,50 @@
 		</div>
 		<h1>Visi</h1>
 		<blockquote>
-			<p><br><i class="icon-quote special"></i> &nbsp;Produktif Dalam Hidup, Peduli pada Lingkungan dan Berakhlak Mulia.<br><br></p>
+			<p><br><i class="icon-quote special"></i> &nbsp;Unggul Dalam Mutu, Berpijak Pada Iman Dan Takwa.<br><br></p>
 		</blockquote>
-		<br>
-		<div class="two-half">
-			<h3>Indikator Visi</h3>
-			<ul class="unordered">
-				<li>Guru dan staf Tata Usaha bekerja secara professional.</li>
-				<li>Tamatan mampu bekerja mandiri dengan berwirausaha sesuai dengan bidang keahlian masing-masing. </li>
-				<li>Tamatan dapat dengan segera terserap habis oleh dunia kerja yang relevan.</li>
-				<li>Tamatan dapat berkompetisi melanjutkan pendidikan ke perguruan tinggi yang berkualitas.</li>
-			</ul>
+		<p style="text-align:justify">
+			Kami memilih visi ini untuk tujuan jangka panjang, jangka menengah dan jangka pendek. 
+			Visi ini menjiwai warga sekolah kami untuk selalu mewujudkannya setiap saat dan berkelanjutan dalam mencapai tujuan sekolah.</p>
+		<div class="one-half">
+			<h5>Visi tersebut mencerminkan profil dan cita-cita sekolah yang :</h5>
+			<ol class="">
+				<li>Berorientasi ke depan dengan memperhatikan potensi kekinian.</li>
+				<li>Sesuai dengan norma dan harapan masyarakat. </li>
+				<li>Ingin mencapai keunggulan.</li>
+				<li>Mendorong semangat dan komitmen seluruh warga sekolah.</li>
+				<li>Mendorong adanya perubahan yang lebih baik.</li>
+				<li>Mengarahkan langkah-langkah strategis (misi) sekolah.</li>
+			</ol>
 		</div>
 		<div class="clear"></div>
 		<hr />
 		<h1>Misi</h1>
-		<p>Misi SMP Negeri 2 Sungai Penuh :</p>
+		<blockquote>
+			<p><br><i class="icon-quote special"></i> &nbsp;Disiplin  Dalam  Kerja, Mewujudkan Manajemen Kekeluargaan, Kerjasama, Pelayanan Prima Dengan Meningkatkan Silaturahmi.<br><br></p>
+		</blockquote>
+		<h5>Penjabaran misi di atas meliputi :</h5>
 		<div class="third-half">
 			<ol class="">
-				<li>Menyiapkan peserta didik menjadi warga Negara yang beriman dan bertakwa, sehat jasmani dan rohani.</li>
-				<li>Menyiapkan peserta didik yang tanggap terhadap perubahan dan kemajuan IPTEK. </li>
-				<li>Menyiapkan peserta didik menjadi tenaga terampil tingkat menengah dalam bidang bisnis manajemen dan teknologi informasi.</li>
-				<li>Menghasilkan tamatan yang memiliki kecakapan hidup untuk membuka usaha sendiri dengan cara berwirausaha.</li>
-				<li>Meningkatkan sarana dan prasarana pendidikan untuk mendukung proses pembelajaran yang optimal.</li>
-				<li>Meningkatkan pelayanan untuk memenuhi kepuasan pelanggan.</li>
+				<li>Melaksanakan pembelajaran dan bimbingan secara efektif sehingga setiap siswa berkembang secara optimal, sesuai dengan potensi yang dimiliki.</li>
+				<li>Menumbuhkan semangat keunggulan secara intensif kepada seluruh warga sekolah.</li>
+				<li>Mendorong dan membantu setiap siswa untuk mengenali potensi dirinya, sehingga dapat berkembang secara optimal.</li>
+				<li>Menumbuhkan dan mendorong keunggulan dalam penerapan ilmu pengetahuan, teknologi dan seni.</li>
+				<li>Menumbuhkan penghayatan terhadap ajaran agama yang dianut dan budaya bangsa sehingga terbangun siswa yang kompeten dan berakhlak mulia.</li>
+				<li>Mendorong lulusan yang berkualitas, berprestasi, berakhlak tinggi, dan bertaqwa pada Tuhan Yang Maha Esa. </li>
 			</ol>
 		</div>
 		<hr>
-		<h1>Tujuan</h1>
-		<p>Tujuan SMP Negeri 2 Sungai Penuh :</p>
+		<h1>Tujuan SMPN 2 Sungah Penuh</h1>
+		<h5>Tujuan sekolah kami merupakan jabaran dari visi dan misi sekolah agar komunikatif dan bisa diukur sebagai berikut :</h5>
 		<div class="">
 			<ul class="unordered">
-				<li>Menyiapkan peserta didik yang tanggap terhadap perubahan dan kemajuan IPTEK. </li>
-				<li>Menyiapkan peserta didik menjadi tenaga terampil tingkat menengah dalam bidang bisnis manajemen dan teknologi informasi.</li>
-				<li>Menghasilkan tamatan yang memiliki kecakapan hidup untuk membuka usaha sendiri dengan cara berwirausaha.</li>
-				<li>Meningkatkan sarana dan prasarana pendidikan untuk mendukung proses pembelajaran yang optimal.</li>
-				<li>Meningkatkan pelayanan untuk memenuhi kepuasan pelanggan.</li>
+				<li>Unggul dalam kegiatan keagamaan dan kepedulian sekolah.</li>
+				<li>Unggul dalam perolehan nilai UN.</li>
+				<li>Unggul dalam persaingan masuk ke jenjang SMA negeri.</li>
+				<li>Unggul dalam penerapan ilmu pengetahuan dan teknologi, terutama bidang sains dan matematika.</li>
+				<li>Unggul dalam lomba olah raga, kesenian, PMR,  dan Pramuka.</li>
+				<li>Unggul dalam kebersihan, Keindahan Linkungan  sekolah.</li>
 			</ul>
 		</div>
 	</div>
