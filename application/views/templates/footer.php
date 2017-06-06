@@ -17,7 +17,7 @@
 		</div>
 		<div class="one-third last widget">
 			<h3 class="widget-title">LOKASI</h3>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.300791848831!2d101.37719131436613!3d-2.035499998516123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2da0d0786da525%3A0xef467204ec345467!2sSMP+Negeri+II+Sungai+Penuh!5e0!3m2!1sen!2sid!4v1496528346666" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.225627792098!2d101.39050921436616!3d-2.0656659984941688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2da1a67642f333%3A0x5839e8e794e60395!2sSMPN+2+Sungai+Penuh!5e0!3m2!1sen!2sid!4v1496768070707" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div>
 		<div class="clear"></div>
 	</div> 

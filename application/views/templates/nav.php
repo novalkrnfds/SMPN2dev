@@ -26,8 +26,8 @@
 				<li><a href="#">Pengumuman</a></li>
 			</ul>
 		</li>
-		<li>
-			<a href="#">Kontak</a>
+		<li class="<?php if($this->uri->segment(2)=="kontak"){echo "active";}?>">
+			<a href="<?php echo base_url()."web/kontak"; ?>">Kontak</a>
 		</li>
 	</ul>
 </nav>

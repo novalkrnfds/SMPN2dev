@@ -18,4 +18,8 @@ class Web extends CI_Controller {
 	public function visimisi(){
 		$this->template->display('content/galeri');
 	}
+	
+	public function kontak(){
+		$this->template->display('content/kontak');
+	}
 }
