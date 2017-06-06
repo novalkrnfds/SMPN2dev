@@ -8,8 +8,6 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/style.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/style/css/media-queries.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/style/js/fancybox/jquery.fancybox.css" media="all" />
-		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/style/js/fancybox/helpers/jquery.fancybox-buttons0ff5.css?v=1.0.2" />
-		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/style/js/fancybox/helpers/jquery.fancybox-thumbs0ff5.css?v=1.0.2" />
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="<?php echo base_url();?>assets/style/type/fontello.css">
 		
@@ -24,9 +22,6 @@
 		<script type="text/javascript" src="<?php echo base_url();?>assets/style/js/jquery.themepunch.revolution.min.js"></script>
 		<script type="text/javascript" src="<?php echo base_url();?>assets/style/js/jquery.fitvids.js"></script>
 		<script type="text/javascript" src="<?php echo base_url();?>assets/style/js/jquery.fancybox.pack.js"></script>
-		<script type="text/javascript" src="<?php echo base_url();?>assets/style/js/fancybox/helpers/jquery.fancybox-buttons0ff5.js?v=1.0.2"></script>
-		<script type="text/javascript" src="<?php echo base_url();?>assets/style/js/fancybox/helpers/jquery.fancybox-thumbs0ff5.js?v=1.0.2"></script>
-		<script type="text/javascript" src="<?php echo base_url();?>assets/style/js/fancybox/helpers/jquery.fancybox-mediae209.js?v=1.0.0"></script>
 		<style type="text/css">
 		div.fs-font {
 		  font-size: 2em;

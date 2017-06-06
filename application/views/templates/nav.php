@@ -16,8 +16,8 @@
 		<li class="<?php if($this->uri->segment(2)=="galeri"){echo "active";}?>">
 			<a href="<?php echo base_url()."web/galeri"; ?>">Galeri</a>
 		</li>
-		<li>
-			<a href="#">Berita</a>
+		<li class="<?php if($this->uri->segment(1)=="berita" || $this->uri->segment(2)=="id"){echo "active";}?>">
+			<a href="<?php echo base_url()."berita";?>">Berita</a>
 		</li>
 		<li>
 			<a href="#">Akademik</a>
