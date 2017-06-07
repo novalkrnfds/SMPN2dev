@@ -11,6 +11,14 @@ class Profil extends CI_Controller {
 		$this->template->display('content/galeri');
 	}
 	
+	public function sejarah(){
+		$this->template->display('content/profil/sejarah');
+	}
+	
+	public function saranaprasarana(){
+		$this->template->display('content/profil/saranaprasarana');
+	}
+	
 	public function visimisi(){
 		$this->template->display('content/profil/visimisi');
 	}
