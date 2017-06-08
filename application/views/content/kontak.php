@@ -42,7 +42,6 @@
 					</fieldset>
 				</form>
 			</div>
-			<div id="strukturorganisasi" style="width: 100%; height: 480px; border-style: dotted; border-width: 1px;" />
 			<!-- End Form --> 
         
 		</section>
