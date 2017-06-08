@@ -8,15 +8,7 @@ class Profil extends CI_Controller {
 	}
 
 	public function struktur_organisasi(){
-		$this->template->display('content/galeri');
-	}
-	
-	public function sejarah(){
-		$this->template->display('content/profil/sejarah');
-	}
-	
-	public function saranaprasarana(){
-		$this->template->display('content/profil/saranaprasarana');
+		$this->template->display('content/strukturorganisasi');
 	}
 	
 	public function visimisi(){
@@ -25,5 +17,13 @@ class Profil extends CI_Controller {
 	
 	public function prestasi(){
 		$this->template->display('content/profil/prestasi');
+	}
+	
+	public function sejarah(){
+		$this->template->display('content/profil/sejarah');
+	}
+	
+	public function saranaprasarana(){
+		$this->template->display('content/profil/saranaprasarana');
 	}
 }

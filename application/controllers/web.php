@@ -11,19 +11,11 @@ class Web extends CI_Controller {
 		$this->template->display('content/home');
 	}
 	
-	public function sejarah(){
-		$this->template->display('content/galeri');
-	}
-	
 	public function galeri(){
 		$this->template->display('content/galeri');
 	}
 	
 	public function visimisi(){
-		$this->template->display('content/galeri');
-	}
-	
-	public function saranaprasarana(){
 		$this->template->display('content/galeri');
 	}
 	
