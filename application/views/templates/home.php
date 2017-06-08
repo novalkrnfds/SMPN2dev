@@ -9,7 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/style/css/customForTable.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/style/css/media-queries.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/style/js/fancybox/jquery.fancybox.css" media="all" />
-		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="<?php echo base_url();?>assets/style/type/fontello.css">
 		<link href="<?php echo base_url();?>assets/strukturjs/css/primitives.latest.css" rel="stylesheet" type="text/css" />
 		

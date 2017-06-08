@@ -54,7 +54,7 @@ td, th { border: 1px solid #cdcdcd; padding: 2px;}
 	td:nth-of-type(10):before { content: "Nationality"; }
 }
 
-/* Section seven*/
+/* Section seven
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
@@ -64,9 +64,8 @@ and (max-device-width : 480px) {
 		width: 320px; 
 	}
 }
-/* Section eight*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 	body { 
 		width: 495px; 
 	}
-}
+}*/
