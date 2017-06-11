@@ -26,4 +26,8 @@ class Profil extends CI_Controller {
 	public function saranaprasarana(){
 		$this->template->display('content/profil/saranaprasarana');
 	}
+	
+	public function saranaprasarana2(){
+		$this->template->display('content/profil/saranaprasarana2');
+	}
 }
