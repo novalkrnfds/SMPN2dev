@@ -6,11 +6,11 @@
 		<li class="<?php if($this->uri->segment(2) == "profil" || $this->uri->segment(2) == "sejarah" || $this->uri->segment(2) == "saranaprasarana" || $this->uri->segment(2) == "prestasi" || $this->uri->segment(2) == "struktur_organisasi" || $this->uri->segment(2) == "visimisi"){echo "active";}?>">
 			<a href="#">Profil</a>
 			<ul>
-				<li><a href="<?php echo base_url()."profil/sejarah"; ?>">Sejarah Sekolah</a></li>
-				<li><a href="<?php echo base_url()."profil/struktur_organisasi"; ?>">Struktur Organisasi</a></li>
-				<li><a href="<?php echo base_url()."profil/visimisi"; ?>">Visi & Misi</a></li>
-				<li><a href="<?php echo base_url()."profil/saranaprasarana"; ?>">Sarana & Prasarana</a></li>
-				<li><a href="<?php echo base_url()."profil/prestasi"; ?>">Prestasi</a></li>
+				<li><a href="<?php echo base_url()."Profil/sejarah"; ?>">Sejarah Sekolah</a></li>
+				<li><a href="<?php echo base_url()."Profil/struktur_organisasi"; ?>">Struktur Organisasi</a></li>
+				<li><a href="<?php echo base_url()."Profil/visimisi"; ?>">Visi & Misi</a></li>
+				<li><a href="<?php echo base_url()."Profil/saranaprasarana"; ?>">Sarana & Prasarana</a></li>
+				<li><a href="<?php echo base_url()."Profil/prestasi"; ?>">Prestasi</a></li>
 			</ul>
 		</li>
 		<li class="<?php if($this->uri->segment(2)=="galeri"){echo "active";}?>">
