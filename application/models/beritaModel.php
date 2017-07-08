@@ -15,11 +15,12 @@ class beritaModel extends CI_Model{
   }
 
   public function ambilBeritaID($id){
-    $id = $this->db->select('*')
-                    ->from('tb_berita')
-                    ->where('id', $id)
-                    ->get();
-    return $id;
+    $this->db->select('*');
+	$this->db->where('id', $id);
+	$q = $this->db->get('tb_berita');
+	// if id is unique, we want to return just one row
+	return $data = array_shift($q->result_array());
+
   }
 
 }

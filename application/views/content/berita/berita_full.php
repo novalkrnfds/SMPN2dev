@@ -14,31 +14,24 @@
 
 		<!-- Begin Blog -->
 		<section class="content full">
-			<?php
-			foreach($berita as $b){ ?>
 			<div class="post">
 				<div class="overlay">
 					<a href="">
-						<img src="<?php data:image/jpg;base64. $b->gambar;?>" alt="" />
+						<img src="<?php echo $berita['gambar'];?>" alt="" />
 					</a>
 				</div>
 				<div class="post-content">
-					<h2><a href="<?php echo base_url('berita/selengkapnya/'. $b->id) ?>"><?php echo $b->judul; ?></a></h2>
+					<h2><a><?php echo $berita['judul']; ?></a></h2>
 					<div class="meta">
-						<span class="date"><?php echo $b->dibuat; ?></span>
-						<span class="tags">
-							<a href="#"><?php echo $b->id_user; ?></a>
-						</span>
 						<span class="comments">
 							<a href="#">4 Comments</a>
 						</span>
 					</div>
-					<p><?php echo $b->body; ?>...</p>
+					<p><?php echo $berita['body']; ?>...</p>
 					<a href="<?php echo base_url('berita/selengkapnya'. $b->id) ?>" class="more">Selengkapnya →</a>
 				</div>
 				<div class="clear"></div>
 			</div>
-			<?php } ?>
 			<!-- Begin Page Navi -->
 			<div class="page-navi">
 				<ul>

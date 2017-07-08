@@ -4,11 +4,12 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 class Berita extends CI_Controller {
 	public function __construct(){
 		parent::__construct();
+		$this->load->database();
 	}
 
 	public function index(){
 
-		$this->load->database();
+		
 		$jml = $this->db->get('tb_berita');
 
 		//pagination
