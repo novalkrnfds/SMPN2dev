@@ -4,30 +4,31 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 class Profil extends CI_Controller {
 	public function __construct(){
 		parent::__construct();
-		$this->load->library('template');
+		$this->load->library('Template');
+		$this->Template = new Template();
 	}
 
-	public function struktur_organisasi(){
-		$this->template->display('content/strukturorganisasi');
+	public function Struktur_organisasi(){
+		$this->Template->display('Content/Strukturorganisasi');
 	}
 	
-	public function visimisi(){
-		$this->template->display('content/profil/visimisi');
+	public function Visimisi(){
+		$this->Template->display('Content/Profil/Visimisi');
 	}
 	
-	public function prestasi(){
-		$this->template->display('content/profil/prestasi');
+	public function Prestasi(){
+		$this->Template->display('Content/Profil/Prestasi');
 	}
 	
-	public function sejarah(){
-		$this->template->display('content/profil/sejarah');
+	public function Sejarah(){
+		$this->Template->display('Content/Profil/Sejarah');
 	}
 	
-	public function saranaprasarana(){
-		$this->template->display('content/profil/saranaprasarana');
+	public function Saranaprasarana(){
+		$this->Template->display('Content/Profil/Saranaprasarana');
 	}
 	
-	public function saranaprasarana2(){
-		$this->template->display('content/profil/saranaprasarana2');
+	public function Saranaprasarana2(){
+		$this->Template->display('Content/Profil/Saranaprasarana2');
 	}
 }

@@ -10,8 +10,8 @@
 		
 		<!-- Begin Content -->
 		<section class="content">
-			<h2>Feel Free to Drop Us a Line</h2>
-			<p>Maecenas vehicula condimentum consequat. Ut suscipit ipsum eget leotero convallis feugiat upsoyut fermentum leo auctor consequat turpis aturo nisiper.</p>
+			<h2>Hubungi Kami...</h2>
+			<p>Silahkan Hubungi Kami pada kontak berikut jika anda mempunyai pertanyaan ataupun masukan.</p>
 			<!-- Begin Form -->
 			<div class="form-container">
 				<div class="response"></div>

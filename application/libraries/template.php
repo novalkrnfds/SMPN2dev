@@ -9,10 +9,10 @@ class Template{
 	}
 	
 	function display($content, $data = null){
-		$data['header'] = $this->_ci->load->view('templates/nav', $data, true);
+		$data['header'] = $this->_ci->load->view('Templates/Nav', $data, true);
 		$data['content'] = $this->_ci->load->view($content, $data, true);
-		$data['footer'] = $this->_ci->load->view('templates/footer', $data, true);
+		$data['footer'] = $this->_ci->load->view('Templates/Footer', $data, true);
 		
-		$this->_ci->load->view('templates/home', $data);
+		$this->_ci->load->view('Templates/Home', $data);
 	}
 }

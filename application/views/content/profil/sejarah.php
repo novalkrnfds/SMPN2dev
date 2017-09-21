@@ -59,23 +59,40 @@
 		<!-- Begin Sidebar -->
 		<aside class="sidebar">
 			<div class="sidebox widget">
-				<h3>Custom Text</h3>
-				<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-				<p>Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue. Fusce  mauris condimentum.</p>
-			</div>
-			<div class="sidebox widget">
-				<h3>Categories</h3>
-				<ul class="list">
-					<li><a href="#">Web Design</a> (21)</li>
-					<li><a href="#">Photography</a> (19)</li>
-					<li><a href="#">Graphic Design</a> (16)</li>
-					<li><a href="#">Manipulation</a> (15)</li>
-					<li><a href="#">Motion Graphics</a> (12)</li>
+				<h3>Postingan Terakhir</h3>
+				<ul class="post-list">
+					<li>
+						<h6><a href="#">Website Resmi SMPN 2 Sungai Penuh</a></h6>
+						<em>20 Juni 2017</em> </li>
+					<li>
+						<h6><a href="#">Penerimaan Siswa dan Siswi Baru Tahun Ajaran 2017/2018</a></h6>
+						<em>11 Juni 2017</em> </li>
+					<li>
+						<h6><a href="#">Libur Bulan Puasa</a></h6>
+						<em>09 Juni 2017</em> </li>
 				</ul>
 			</div>
-		</aside>
-		<!-- End Sidebar -->
-		  
+			<div class="sidebox widget">
+				<h3>Pencarian</h3>
+				<form class="searchform" method="get">
+					<input type="text" id="s2" name="s" value="type and hit enter" onfocus="this.value=''" onblur="this.value='type and hit enter'"/>
+				</form>
+			</div>
+			<div class="sidebox widget">
+				<h3>Testimoni</h3>
+				<p>Under Construction...</p>
+			</div>
+			<div class="sidebox widget">
+				<h3>Kategori</h3>
+				<ul class="list">
+					<li><a href="#">Ekstrakurikuler</a></li>
+					<li><a href="#">Berita</a></li>
+					<li><a href="#">Pengumuman</a></li>
+					<li><a href="#">Akademik</a></li>
+				</ul>
+			</div>
+		</aside> 
+		<!-- End Sidebar -->  
 		<div class="clear"></div>
     </div>
 </div>

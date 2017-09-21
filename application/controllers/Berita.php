@@ -4,50 +4,78 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 class Berita extends CI_Controller {
 	public function __construct(){
 		parent::__construct();
-		$this->load->database();
+		$this->load->library('Template', 'pagination');
+		$this->load->Model('MBerita', '', TRUE);
+		$this->Template = new Template();
 	}
 
 	public function index(){
-
 		
-		$jml = $this->db->get('tb_berita');
+        
+		$config['num_links'] = 7;
 
-		//pagination
-		$config['base_url'] = base_url().'Berita/index';
-		$config['total_rows'] = $jml->num_rows();
-		$config['per_page'] = '5';
-		$config['first_page'] = 'Awal';
-		$config['last_page'] = 'Akhir';
-		$config['next_page'] = '&laquo;';
-		$config['prev_page'] = '&raquo;';
+		$config['display_pages'] = TRUE;
+		$config['use_page_numbers'] = TRUE;
 
-		//inisialisasi config
+		//Encapsulate whole pagination 
+		$config['full_tag_open'] = '<ul class="pagination">';
+		$config['full_tag_close'] = '</ul>';
+
+		//First link of pagination
+		$config['first_link'] = 'First';
+		$config['first_tag_open'] = '<li>>';
+		$config['first_tag_close'] = '</li>';
+
+		//Customizing the “Digit” Link
+		$config['num_tag_open'] = '<li>';
+		$config['num_tag_close'] = '</li>';
+
+		//For PREVIOUS PAGE Setup
+		$config['prev_link'] = '<';
+		$config['prev_tag_open'] = '<li>';
+		$config['prev_tag_close'] = '</li>';
+
+		//For NEXT PAGE Setup
+		$config['next_link'] = '>';
+		$config['next_tag_open'] = '<li>';
+		$config['next_tag_close'] = '</li>';
+
+		//For LAST PAGE Setup
+		$config['last_link'] = 'Last';
+		$config['last_tag_open'] = '<li>';
+		$config['last_tag_close'] = '</li>';
+
+		//For CURRENT page on which you are
+		$config['cur_tag_open'] = '<li><a class="current">';
+		$config['cur_tag_close'] = '</a></li>';
+		
+        
+		
+		$config["base_url"] = base_url() . "Berita/index";
+		$config["total_rows"] = $this->MBerita->count_berita();
+		$config["per_page"] = 5;
+		$config["uri_segment"] = 3;
+		$choice = $config["total_rows"] / $config["per_page"];
+		$config["num_links"] = round($choice);
+
 		$this->pagination->initialize($config);
 
-		//buat pagination
-		$data['halaman'] = $this->pagination->create_links();
+		$page = ($this->uri->segment(3))? $this->uri->segment(3) : 0;
+		$data["results"] = $this->MBerita
+			->fetch_berita($config["per_page"], $page);
+		$data["links"] = $this->pagination->create_links();
 
-		//tampilkan database
-		$data['berita'] = $this->beritaModel->ambil_berita();
-
-		$this->template->display('content/berita/Berita', $data);
+		$this->Template->display('Content/Berita/Berita', $data);
 	}
 
 	public function selengkapnya(){
 		$id= $this->uri->segment(3);
-		$data['berita'] = $this->beritaModel->ambilBeritaID($id);
+		$data['berita'] = $this->MBerita->ambilBeritaID($id);
 
-		$this->template->display('content/berita/Berita_full', $data);
+		$this->template->display('Content/Berita/Berita_full', $data);
 	}
 
-	public function base64ToImage($base64_string, $output_file){
-		$file = fopen($output_file, "wb");
-		$data = explode(',', $base64_string);
-		fwrite($file, base64_decode($data[1]));
-		fclose($file);
-
-		return $output_file;
-	}
+	
 
 
 }

@@ -1,0 +1,14 @@
+[08-Jul-2017 22:56:27 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/smpf4241/public_html/application/controllers/Berita.php on line 17
+[08-Jul-2017 22:57:08 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/smpf4241/public_html/application/controllers/Berita.php on line 17
+[08-Jul-2017 22:57:56 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/smpf4241/public_html/application/controllers/Berita.php on line 17
+[08-Jul-2017 22:58:07 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/smpf4241/public_html/application/controllers/Berita.php on line 17
+[08-Jul-2017 23:00:30 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/smpf4241/public_html/application/controllers/Berita.php on line 17
+[08-Jul-2017 23:00:38 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/smpf4241/public_html/application/controllers/Berita.php on line 17
+[08-Jul-2017 23:00:55 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/smpf4241/public_html/application/controllers/Berita.php on line 17
+[08-Jul-2017 23:07:03 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/smpf4241/public_html/application/controllers/Berita.php on line 17
+[09-Jul-2017 00:19:17 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/smpf4241/public_html/application/controllers/Berita.php on line 17
+[09-Jul-2017 00:26:58 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/smpf4241/public_html/application/controllers/Berita.php on line 17
+[09-Jul-2017 00:27:01 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/smpf4241/public_html/application/controllers/Berita.php on line 17
+[09-Jul-2017 00:27:02 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/smpf4241/public_html/application/controllers/Berita.php on line 17
+[09-Jul-2017 00:27:09 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/smpf4241/public_html/application/controllers/Berita.php on line 17
+[09-Jul-2017 21:25:44 Asia/Jakarta] PHP Fatal error:  Call to a member function ambilBeritaID() on null in /home/smpf4241/public_html/application/controllers/Berita.php on line 38

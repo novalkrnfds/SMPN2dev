@@ -51,60 +51,68 @@
 	<?php endforeach; ?>
 	</div>
 	<div class="inner dark">
-	<?php if($berita)
-			foreach($berita as $b) : ?>
 		<div class="one-half">
 			<h3>Info Sekolah</h3>
 			<div class="tabs tab-container">
 				<ul class="etabs">
 					<li class="tab"><a href="#berita">Berita</a></li>
 					<li class="tab"><a href="#kegiatan">Kegiatan</a></li>
+					<li class="tab"><a href="#pengumuman">Pengumuman</a></li>
 				</ul>
 				<div class="panel-container">
 					<div id="berita">
 						<div class="grid-wrapper">
-							<a href="#"><b><?php echo $b->judul; ?></b></a>
-							<p style='text-align: justify;'><img src='<?php echo base_url();?>admin/assets/uploads/berita/<?php echo $b->gambar; ?>' width='100px' style='float:left; margin: 5px 10px 0 0; padding: 3px; background: #fff; border: 1px solid #dcdcdc'>
-								<?php echo substr($b->body, 0, 180); ?>... <a href="<?php echo base_url('Berita/Selengkapnya/'. $b->id) ?>" class="more">Selengkapnya →</a></p><br>
+							<a href="#"><b>Hari Pertama UN SMP, Kemendikbud Tinjau Distribusi Naskah Soal di Subrayon Sejak Subuh</b></a>
+							<p style='text-align: justify;'><img src='<?php echo base_url();?>assets/style/images/sementara/5.jpg' width='100px' style='float:left; margin: 5px 10px 0 0; padding: 3px; background: #fff; border: 1px solid #dcdcdc'>
+								Jakarta, Kemendikbud --- Kementerian Pendidikan dan Kebudayaan (Kemendikbud) yang dipimpin Kepala Balitbang Kemendikbud, Furqon, melakukan sidak distribusi naskah ujian nasional (UN) di hari pertama penyelenggaraan UN SMP. 
+								Sidak dilakukan di SMPN 73 ... <a href='#'>  Selengkapnya...</a></p><br>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<?php endforeach; ?>
 		
 		<div class="one-half last">
-			<h3>Pengumuman</h3>
+			<h3>Agenda</h3>
 			<!-- Begin Toggle -->
-			
-			<?php
-			
-			foreach($pengumuman as $p) { 
-				if ($p > 0)
-				{?>
 			<div class="toggle">
-				<h4 class="title"><?php echo $p->judul; ?></h4>
+				<h4 class="title">Perpisahan Kelas IX</h4>
 				<div class="togglebox">
 					<div>
-						<p><?php echo $p->isi; ?></p>
+						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc rhoncus tortor quis eros bibendum a tempus est dapibus. Vivamus consectetur quam eu tellus porttitor ultrices. Nunc metus massa, ullamcorper sit amet malesuada a, porttitor in tellus.</p>
 					</div>
 				</div>
 			</div>
-			<?php } else { ?>
-			ss
-			<?php } 
-			} ?>
 			<!-- End Toggle --> 
+        
+			<!-- Begin Toggle -->
+			<div class="toggle">
+				<h4 class="title">Buka Puasa Bersama</h4>
+				<div class="togglebox in">
+					<div>
+						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc rhoncus tortor quis eros bibendum a tempus est dapibus. Vivamus consectetur quam eu tellus porttitor ultrices. Nunc metus massa, ullamcorper sit amet malesuada a, porttitor in tellus.</p>
+					</div>
+				</div>
+			</div>
+			<!-- End Toggle --> 
+        
+			<!-- Begin Toggle -->
+			<div class="toggle">
+				<h4 class="title">Idul Fitri 1438 H</h4>
+				<div class="togglebox">
+					<div>
+						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc rhoncus tortor quis eros bibendum a tempus est dapibus. Vivamus consectetur quam eu tellus porttitor ultrices. Nunc metus massa, ullamcorper sit amet malesuada a, porttitor in tellus.</p>
+					</div>
+				</div>
+			</div>
+			<!-- End Toggle --> 
+        
 		</div>
+		
 		<p><font color="#f3f3f3">.</font></p>
 		<br>
 		<div class="grid-wrapper">
 		</div>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br><br>
 	</div>
 	
 	<div class="inner light">
