@@ -40,10 +40,10 @@ td, th { border: 1px solid #cdcdcd; padding: 2px;}
 		white-space: nowrap;
 					font-weight: bold;
 	}
-	/* Section six*/
+	/* Section six */
 
-	td:nth-of-type(1):before { content: "First Name"; }
-	td:nth-of-type(2):before { content: "Last Name"; }
+	td:nth-of-type(1):before { content: ""; }
+	/*td:nth-of-type(2):before { content: "Last Name"; }
 	td:nth-of-type(3):before { content: "Job Title"; }
 	td:nth-of-type(4):before { content: "Joining Date"; }
 	td:nth-of-type(5):before { content: "Total Experience"; }
@@ -51,7 +51,7 @@ td, th { border: 1px solid #cdcdcd; padding: 2px;}
 	td:nth-of-type(7):before { content: "Date of Birth"; }
 	td:nth-of-type(8):before { content: "Current City"; }
 	td:nth-of-type(9):before { content: "Prefered City"; }
-	td:nth-of-type(10):before { content: "Nationality"; }
+	td:nth-of-type(10):before { content: "Nationality"; }*/
 }
 
 /* Section seven

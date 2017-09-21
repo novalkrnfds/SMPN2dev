@@ -19,10 +19,10 @@
 		<li class="<?php if($this->uri->segment(1)=="Berita" || $this->uri->segment(2)=="id"){echo "active";}?>">
 			<a href="<?php echo base_url('Berita');?>">Berita</a>
 		</li>
-		<li>
+		<li class="<?php if($this->uri->segment(2) == "Agenda" || $this->uri->segment(2) == "Pengumuman"){echo "active";}?>">
 			<a href="#">Akademik</a>
 			<ul>
-				<li><a href="#">Agenda Kegiatan</a></li>
+				<li><a href="<?php echo base_url()."Akademik/Agenda"; ?>">Agenda Kegiatan</a></li>
 				<li><a href="#">Pengumuman</a></li>
 			</ul>
 		</li>
