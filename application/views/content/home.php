@@ -91,7 +91,14 @@
 				</div>
 			</div>
 			<?php } else { ?>
-			ss
+			<div class="toggle">
+				<h4 class="title">Tidak Ada Pengumuman</h4>
+				<div class="togglebox">
+					<div>
+						<p>Tidak Ada Pengumuman</p>
+					</div>
+				</div>
+			</div>
 			<?php } 
 			} ?>
 			<!-- End Toggle --> 
