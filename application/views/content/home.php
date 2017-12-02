@@ -40,7 +40,7 @@
 			foreach($data as $u) : ?>
 		<h3>Sambutan Kepala Sekolah</h3>
 		<div class="one-fourth">
-			<img src="<?php echo base_url();?>admin/assets/uploads/<?php echo $u->foto_kepsek; ?>" width="100%" alt="Drs. Moh. Khotim, M.Pd">
+			<img src="<?php echo base_url().'admin/assets/uploads/'.$u->foto_kepsek; ?>" width="100%" alt="Drs. Moh. Khotim, M.Pd">
 		</div>
 		<div class="row-item">
 				<p style="text-align: justify;"><?php echo $u->sambutan; ?></p>
@@ -51,6 +51,15 @@
 	<?php endforeach; ?>
 	</div>
 	<div class="inner dark">
+	<?php
+		$a = 0;
+		if(a != 0){
+			echo "haha";
+		} else {
+			echo "hehe";
+		}
+	
+	?>
 	<?php if($berita)
 			foreach($berita as $b) : ?>
 		<div class="one-half">
@@ -80,7 +89,12 @@
 			<?php
 			
 			foreach($pengumuman as $p) { 
-				if ($p > 0)
+			$awal = $p->dari;
+			$akhir = $p->sampai;
+			$hasil = (strtotime($akhir) - strtotime($awal));
+			$jumlah = floor($hasil / (60 * 60 * 24));
+			echo $p;
+				if ($p != null)
 				{?>
 			<div class="toggle">
 				<h4 class="title"><?php echo $p->judul; ?></h4>
@@ -90,16 +104,9 @@
 					</div>
 				</div>
 			</div>
-			<?php } else { ?>
-			<div class="toggle">
-				<h4 class="title">Tidak Ada Pengumuman</h4>
-				<div class="togglebox">
-					<div>
-						<p>Tidak Ada Pengumuman</p>
-					</div>
-				</div>
-			</div>
-			<?php } 
+			<?php } else { 
+			echo "kosong";
+			} 
 			} ?>
 			<!-- End Toggle --> 
 		</div>

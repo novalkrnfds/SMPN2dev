@@ -12,19 +12,24 @@ class Web extends CI_Controller {
 	public function index(){
 		$data['data']=$this->HomeModel->SelectAll();
 		$data['berita']=$this->HomeModel->Berita();
+		$data['identitas']=$this->HomeModel->Identitas();
 		$data['pengumuman']=$this->HomeModel->Pengumuman();
 		$this->template->display('Content/Home', $data);
 	}
 	
 	public function galeri(){
-		$this->template->display('Content/Galeri');
+		$data['identitas']=$this->HomeModel->Identitas();
+		$data['gallery']=$this->HomeModel->Gallery();
+		$this->template->display('Content/Galeri', $data);
 	}
 	
 	public function visimisi(){
-		$this->template->display('Content/Galeri');
+		$data['identitas']=$this->HomeModel->Identitas();
+		$this->template->display('Content/Galeri', $data);
 	}
 	
 	public function kontak(){
-		$this->template->display('Content/Kontak');
+		$data['identitas']=$this->HomeModel->Identitas();
+		$this->template->display('Content/Kontak', $data);
 	}
 }

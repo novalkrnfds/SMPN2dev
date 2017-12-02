@@ -5,7 +5,7 @@ class Akademik extends CI_Controller {
 	public function __construct(){
 		parent::__construct();
 		$this->load->library('Template');
-		// $this->load->Model('HomeModel', '', TRUE);
+		$this->load->Model('HomeModel', '', TRUE);
 		// $this->Template = new Template();
 	}
 
@@ -17,7 +17,8 @@ class Akademik extends CI_Controller {
 	// }
 
 	public function agenda(){
-		$this->template->display('Content/Akademik/Agenda');
+		$data['identitas']=$this->HomeModel->Identitas();
+		$this->template->display('Content/Akademik/Agenda', $data);
 	}
 
 	// public function visimisi(){

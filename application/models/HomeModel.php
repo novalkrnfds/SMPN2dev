@@ -38,6 +38,14 @@ class HomeModel extends CI_Model{
 		return $query->result();
    }
    
-
+	public function Identitas(){
+	   $query = $this->db->get("tb_pengaturan");
+        return $query->result_array();
+   }
+   
+   public function Gallery(){
+	   $query = $this->db->get("tb_gallery");
+        return $query->result();
+   }
 
 }

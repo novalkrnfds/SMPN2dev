@@ -3,7 +3,7 @@
 		<div class="page-intro clearfix">
 			<h1 class="page-title">Visi & Misi</h1>
 		</div>
-		<h1>Visi</h1>
+		<!--<h1>Visi</h1>
 		<blockquote>
 			<p><br><i class="icon-quote special"></i> &nbsp;Unggul Dalam Mutu, Berpijak Pada Iman Dan Takwa.<br><br></p>
 		</blockquote>
@@ -20,10 +20,20 @@
 				<li>Mendorong adanya perubahan yang lebih baik.</li>
 				<li>Mengarahkan langkah-langkah strategis (misi) sekolah.</li>
 			</ol>
-		</div>
+		</div> !-->
+		
+		<?php
+		$no= 1;
+		if($visi)
+			foreach($visi as $b) :
+				echo $b->visi;
+			endforeach;
+		?>
+		
+		
 		<div class="clear"></div>
 		<hr />
-		<h1>Misi</h1>
+		<!--<h1>Misi</h1>
 		<blockquote>
 			<p><br><i class="icon-quote special"></i> &nbsp;Disiplin  Dalam  Kerja, Mewujudkan Manajemen Kekeluargaan, Kerjasama, Pelayanan Prima Dengan Meningkatkan Silaturahmi.<br><br></p>
 		</blockquote>
@@ -50,7 +60,15 @@
 				<li>Unggul dalam lomba olah raga, kesenian, PMR,  dan Pramuka.</li>
 				<li>Unggul dalam kebersihan, Keindahan Linkungan  sekolah.</li>
 			</ul>
-		</div>
+		</div> !-->
+		
+		<?php
+		$no= 1;
+		if($visi)
+			foreach($visi as $b) :
+				echo $b->misi;
+			endforeach;
+		?>
 	</div>
 	<!-- End Sub Footer Wrapper --> 
   

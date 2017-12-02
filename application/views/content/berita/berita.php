@@ -18,7 +18,7 @@
 			foreach($results as $b) { ?>
 			<div class="post">
 				
-						<img src="<?php echo base_url();?>admin/assets/uploads/berita/<?php echo $b->gambar; ?>" alt="" />
+						<img src="<?php echo base_url().'admin/assets/uploads/berita/'. $b->gambar; ?>" alt="" />
 					
 				<div class="post-content">
 					<h2><a href="<?php echo base_url('Berita/Selengkapnya/'. $b->id) ?>"><?php echo $b->judul; ?></a></h2>
@@ -28,10 +28,9 @@
 							<a href="#"><?php echo $b->id_user; ?></a>
 						</span>
 						<span class="comments">
-							<a href="#">4 Comments</a>
 						</span>
 					</div>
-					<p><?php echo substr($b->body, 0, 300); ?>...</p>
+					<p><?php echo substr($b->body, 0, 500); ?>...</p>
 					<a href="<?php echo base_url('Berita/Selengkapnya/'. $b->id) ?>" class="more">Selengkapnya →</a>
 				</div>
 				<div class="clear"></div>

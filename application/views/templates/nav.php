@@ -23,7 +23,7 @@
 			<a href="#">Akademik</a>
 			<ul>
 				<li><a href="<?php echo base_url()."Akademik/Agenda"; ?>">Agenda Kegiatan</a></li>
-				<li><a href="#">Pengumuman</a></li>
+				<!-- <li><a href="#">Pengumuman</a></li> -->
 			</ul>
 		</li>
 		<li class="<?php if($this->uri->segment(2)=="Kontak"){echo "active";}?>">

@@ -10,10 +10,13 @@
 			</p>
 		</div>
 		<div class="one-third widget">
-			<h3 class="widget-title">ALAMAT</h3>
-			<i class="icon-location contact"></i> Jalan Jendral Sudirman, Kota Sungai Penuh <br />
-			<i class="icon-phone contact"></i> (0748) 21 068 <br />
-			<i class="icon-mail contact"></i> <a href="mailto:info@smpn2spn.sch.id">info@smpn2spn.sch.id</a> 
+		<?php foreach($identitas as $i)
+				{ ?>
+			<h3 class="widget-title">Alamat</h3>
+			<i class="icon-location contact"></i> <?php echo $i['alamat']; ?><br />
+			<i class="icon-phone contact"></i><?php echo $i['telp']; ?> <br />
+			<i class="icon-mail contact"></i> <a href="mailto:info@smpn2spn.sch.id"><?php echo $i['email']; ?></a> 
+		<?php } ?>
 		</div>
 		<div class="one-third last widget">
 			<h3 class="widget-title">LOKASI</h3>
@@ -28,13 +31,15 @@
 	<div class="inner">
 		<p>© 2017 <a href="<?php base_url();?>"><b>SMP Negeri 2 Sungai Penuh</b></a>. All rights reserved.</p>
 		<ul class="social">
-			<li><a href="#"><i class="icon-s-rss"></i></a></li>
-			<li><a href="#"><i class="icon-s-twitter"></i></a></li>
-			<li><a href="#"><i class="icon-s-facebook"></i></a></li>
-			<li><a href="#"><i class="icon-s-dribbble"></i></a></li>
+		<?php foreach($identitas as $i)
+				{ ?>
+			<li><a href="<?php echo $i['twitter']; ?>"><i class="icon-s-twitter"></i></a></li>
+			<li><a href="<?php echo $i['facebook']; ?>"><i class="icon-s-facebook"></i></a></li>
+			<li><a href="<?php echo $i['youtube']; ?>"><i class="icon-s-youtube"></i></a></li>
 			<li><a href="#"><i class="icon-s-pinterest"></i></a></li>
 			<li><a href="#"><i class="icon-s-flickr"></i></a></li>
 			<li><a href="#"><i class="icon-s-vimeo"></i></a></li>
+			<?php } ?>
 		</ul>
 		<div class="clear"></div>
 	</div>

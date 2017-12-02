@@ -17,12 +17,12 @@
 			<div class="post">
 				<div class="overlay">
 					<a href="">
-						<img src="<?php echo base_url();?>admin/assets/uploads/berita/<?php echo $berita['gambar']; ?>" alt="" />
+						<img src="<?php echo base_url().'admin/assets/uploads/berita/'.$berita['gambar']; ?>" alt="" />
 					</a>
 				</div>
 				<div class="post-content">
 					<h2><a><?php echo $berita['judul']; ?></a></h2>
-					<div class="meta"> <span class="date"><?php echo $berita['dibuat']; ?></span> <span class="tags"><?php echo $berita['tipe']; ?></span> <span class="comments"><a href="#">3 Comments</a></span> </div>
+					<div class="meta"> <span class="date"><?php echo $berita['dibuat']; ?></span> <span class="tags"><?php echo $berita['tipe']; ?></span> <span class="comments"><a href="#"><?php echo $berita['nama']; ?></a></span> </div>
 					<p><?php echo $berita['body']; ?></p>
 				</div>
 				<div class="clear"></div>

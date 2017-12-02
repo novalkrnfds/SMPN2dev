@@ -18,7 +18,13 @@
 					</div>
 				</div>
 				<div class="post-content">
-					<p style="text-align:justify;">
+				<?php
+				$no= 1;
+				if($sejarah)
+					foreach($sejarah as $b) :
+			
+				?>
+					<!--<p style="text-align:justify;">
 						<span class="dropcap">SMPN 2</span> Sungai Penuh sejak berdiri tanggal 25 Mei 1960 bernama SGB sampai berubah menjadi SMP Negeri 2 Sungai Penuh, 
 						Sejak berdirinya Tahun 1960 sampai sekarang SMP Negeri 2 Sungai Penuh  berkedudukan di Sungai Penuh ibu kota Kabupaten Kerinci sekarang berubah nama Kota Sungai Penuh, tepatnya di Jl.Jend. Sudirman  Kecamatan Sungai Penuh Kota Sungai Penuh. 
 						Berdirinya SMP Negeri 2 Sungai Penuh ini atas kerjasama seluruh masyarakat Kecamatan Sungai Penuh untuk mendesak Pemerintah Daerah Tingkat II Kabupaten Kerinci, 
@@ -47,9 +53,11 @@
 						<li>Sebelah timur berbatasaan dengan Jalan Raya Jend. Sudirman.</li>
 						<li>Sebelah utara berbatasaan dengan Dinas Ketahanan Pangan.</li>
 						<li>Sebelah selatan berbatasaan dengan Bazda Kota Sungai Penuh.</li>
-					</ol>
+					</ol> !-->
+					<?php
+					echo $b->sejarah;
 				
-			   
+			    endforeach; ?>	
 				</div>
 				<div class="clear"></div>
 			</div>

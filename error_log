@@ -12,3 +12,31 @@
 [09-Jul-2017 00:27:02 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/smpf4241/public_html/application/controllers/Berita.php on line 17
 [09-Jul-2017 00:27:09 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/smpf4241/public_html/application/controllers/Berita.php on line 17
 [09-Jul-2017 21:25:44 Asia/Jakarta] PHP Fatal error:  Call to a member function ambilBeritaID() on null in /home/smpf4241/public_html/application/controllers/Berita.php on line 38
+[07-Aug-2017 11:43:09 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Mberita::Ambil_berita() in /home/smpf4241/public_html/application/models/Mberita.php on line 22
+[07-Aug-2017 11:43:14 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Mberita::Ambil_berita() in /home/smpf4241/public_html/application/models/Mberita.php on line 22
+[07-Aug-2017 11:43:17 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Mberita::Ambil_berita() in /home/smpf4241/public_html/application/models/Mberita.php on line 22
+[07-Aug-2017 11:43:20 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Mberita::Ambil_berita() in /home/smpf4241/public_html/application/models/Mberita.php on line 22
+[07-Aug-2017 11:43:23 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Mberita::Ambil_berita() in /home/smpf4241/public_html/application/models/Mberita.php on line 22
+[07-Aug-2017 11:43:25 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Mberita::Ambil_berita() in /home/smpf4241/public_html/application/models/Mberita.php on line 22
+[07-Aug-2017 11:45:18 Asia/Jakarta] PHP Fatal error:  Call to a member function get() on null in /home/smpf4241/public_html/application/controllers/Berita.php on line 13
+[07-Aug-2017 11:46:20 Asia/Jakarta] PHP Fatal error:  Call to a member function get() on null in /home/smpf4241/public_html/application/models/Mberita.php on line 11
+[07-Aug-2017 11:46:28 Asia/Jakarta] PHP Fatal error:  Call to a member function get() on null in /home/smpf4241/public_html/application/models/Mberita.php on line 11
+[07-Aug-2017 11:50:41 Asia/Jakarta] PHP Fatal error:  Call to a member function get() on null in /home/smpf4241/public_html/application/models/Mberita.php on line 11
+[07-Aug-2017 11:53:15 Asia/Jakarta] PHP Fatal error:  Call to a member function get() on null in /home/smpf4241/public_html/application/controllers/Berita.php on line 31
+[07-Aug-2017 11:57:42 Asia/Jakarta] PHP Fatal error:  Call to a member function get() on null in /home/smpf4241/public_html/application/controllers/Berita.php on line 31
+[07-Aug-2017 11:57:43 Asia/Jakarta] PHP Fatal error:  Call to a member function get() on null in /home/smpf4241/public_html/application/controllers/Berita.php on line 31
+[07-Aug-2017 13:29:18 Asia/Jakarta] PHP Fatal error:  Call to a member function ambilBeritaID() on null in /home/smpf4241/public_html/application/controllers/Berita.php on line 38
+[07-Aug-2017 21:29:00 Asia/Jakarta] PHP Fatal error:  Call to a member function ambilBeritaID() on null in /home/smpf4241/public_html/application/controllers/Berita.php on line 38
+[12-Aug-2017 06:00:08 Asia/Jakarta] PHP Fatal error:  Call to a member function ambilBeritaID() on null in /home/smpf4241/public_html/application/controllers/Berita.php on line 38
+[13-Aug-2017 03:37:10 Asia/Jakarta] PHP Fatal error:  Call to a member function ambilBeritaID() on null in /home/smpf4241/public_html/application/controllers/Berita.php on line 38
+[13-Aug-2017 15:27:46 Asia/Jakarta] PHP Fatal error:  Call to a member function ambilBeritaID() on null in /home/smpf4241/public_html/application/controllers/Berita.php on line 38
+[06-Sep-2017 23:38:46 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=' in /home/smpf4241/public_html/application/models/Mberita.php on line 11
+[06-Sep-2017 23:51:12 Asia/Jakarta] PHP Fatal error:  Call to a member function ambilBeritaID() on null in /home/smpf4241/public_html/application/controllers/Berita.php on line 38
+[07-Sep-2017 00:03:07 Asia/Jakarta] PHP Fatal error:  Call to a member function display() on null in /home/smpf4241/public_html/application/controllers/Berita.php on line 15
+[07-Sep-2017 00:07:12 Asia/Jakarta] PHP Fatal error:  Call to a member function ambilBeritaID() on null in /home/smpf4241/public_html/application/controllers/Berita.php on line 22
+[07-Sep-2017 10:42:35 Asia/Jakarta] PHP Fatal error:  Call to a member function ambilBeritaID() on null in /home/smpf4241/public_html/application/controllers/Berita.php on line 22
+[07-Sep-2017 10:42:40 Asia/Jakarta] PHP Fatal error:  Call to a member function ambilBeritaID() on null in /home/smpf4241/public_html/application/controllers/Berita.php on line 22
+[10-Sep-2017 17:44:36 Asia/Jakarta] PHP Fatal error:  Call to a member function display() on null in /home/smpf4241/public_html/application/controllers/Profil.php on line 23
+[24-Sep-2017 21:30:56 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$berita' (T_VARIABLE), expecting ',' or ';' in /home/smpf4241/public_html/application/views/Content/Berita/Berita_full.php on line 20
+[24-Sep-2017 21:32:38 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$b' (T_VARIABLE), expecting ',' or ';' in /home/smpf4241/public_html/application/views/Content/Berita/Berita.php on line 21
+[24-Sep-2017 21:45:02 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$b' (T_VARIABLE), expecting ',' or ';' in /home/smpf4241/public_html/application/views/Content/Berita/Berita.php on line 21

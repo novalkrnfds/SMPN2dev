@@ -6,6 +6,7 @@ class Berita extends CI_Controller {
 		parent::__construct();
 		$this->load->library('Template', 'pagination');
 		$this->load->Model('MBerita', '', TRUE);
+		$this->load->Model('HomeModel', '', TRUE);
 		$this->Template = new Template();
 	}
 
@@ -64,6 +65,8 @@ class Berita extends CI_Controller {
 		$data["results"] = $this->MBerita
 			->fetch_berita($config["per_page"], $page);
 		$data["links"] = $this->pagination->create_links();
+		
+		$data['identitas']=$this->HomeModel->Identitas();
 
 		$this->Template->display('Content/Berita/Berita', $data);
 	}
@@ -71,7 +74,7 @@ class Berita extends CI_Controller {
 	public function selengkapnya(){
 		$id= $this->uri->segment(3);
 		$data['berita'] = $this->MBerita->ambilBeritaID($id);
-
+		$data['identitas']=$this->HomeModel->Identitas();
 		$this->template->display('Content/Berita/Berita_full', $data);
 	}
 
